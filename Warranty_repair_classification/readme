@@ -1,1 +1,12 @@
+Determination of warranty repairs during regular maintenance with using Machine Learning models:
 
+- CatBoostClassifier
+- LGBMClassifier
+- BaggingClassifier
+
+At this point, the metrics need to be improved by adding additional features to the models.
+
+Also, using SHAP diagrams, one can note the tendency of the model to define class 1 (warranty repair)
+at high mileage values (mileage), and the tendency to define class 0 (no warranty repairs)
+with a high number of days of operation from the date of sale (expl_days) and high in the serial
+number maintenance (maintenance)
