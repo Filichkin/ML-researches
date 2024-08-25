@@ -6,7 +6,5 @@
 - features encoding
 - Features sampling
 - Transform futures to tensors
-
-4  Model creation
-
-5  CatBoost CatBoostClassifier
+4. Model creation
+5. CatBoost CatBoostClassifier
