@@ -6,5 +6,5 @@
 - features encoding
 - Features sampling
 - Transform futures to tensors
-4. Model creation
+4. PyTorch model
 5. CatBoostClassifier
